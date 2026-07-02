@@ -1,0 +1,14 @@
+{
+  "CutAndRunPipeline.treatment_r1": "s3://your-bucket/treatment_R1.fastq.gz",
+  "CutAndRunPipeline.treatment_r2": "s3://your-bucket/treatment_R2.fastq.gz",
+  "CutAndRunPipeline.control_r1": "s3://your-bucket/control_R1.fastq.gz",
+  "CutAndRunPipeline.control_r2": "s3://your-bucket/control_R2.fastq.gz",
+  "CutAndRunPipeline.reference_genome_tar": "s3://your-bucket/refs/hg38_star_index.tar.gz",
+  "CutAndRunPipeline.ecoli_genome_tar": "s3://your-bucket/refs/ecoli_star_index.tar.gz",
+  "CutAndRunPipeline.chrom_sizes": "s3://your-bucket/refs/hg38.chrom.sizes",
+  "CutAndRunPipeline.annotation_genes": "s3://your-bucket/refs/gencode.v44.genes.bed",
+  "CutAndRunPipeline.genome_size_string": "hs",
+  "CutAndRunPipeline.fragment_size_filter": "histones",
+  "CutAndRunPipeline.num_threads": 8,
+  "CutAndRunPipeline.docker_image": "123456789.dkr.ecr.us-east-1.amazonaws.com/cutandrun:latest"
+}
